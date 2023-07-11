@@ -1,0 +1,15 @@
+.form-check-input[type=radio]{
+  border: 1px solid black;
+}
+.form-check{
+  margin-right: 10px;
+}
+
+.he_d{
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+}
+.btn-close{
+  display: none;
+}
