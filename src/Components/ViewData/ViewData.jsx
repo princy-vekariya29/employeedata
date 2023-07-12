@@ -60,7 +60,7 @@ const ViewData = () => {
                                 <>
                                     <thead>
                                         <tr>
-                                            <th>Sr-no</th>
+                                            <th>Id</th>
                                             <th>First name</th>
                                             <th>Last name</th>
                                             <th>Email</th>
@@ -113,5 +113,4 @@ const ViewData = () => {
         </div>
     );
 }
-
 export default ViewData
