@@ -40,7 +40,7 @@ function Employee() {
         let name = e.target.name;
         let value = e.target.value
 
-        setinputList({ ...inputList, [name]: value })
+        setinputList({ ...inputList, [name]: value }) 
         // console.log("name",name);
 
     }

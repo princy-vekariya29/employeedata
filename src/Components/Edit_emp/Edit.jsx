@@ -91,10 +91,14 @@ function Edit() {
                                     <Form.Control type='text' placeholder='Enter city' name='city' value={inputList.city} onChange={handleChange}/>
                                 </Form.Group>
                             </Row>
-                            <Form.Group className="mb-3">
+                            <Form.Group className="col-6 mb-3">
                                 <Form.Label>Address</Form.Label>
                                 <Form.Control placeholder="1234 Main St" name='address' value={inputList.address} onChange={handleChange}/>
                             </Form.Group>
+                            <Form.Group className="col-6 mb-3">
+                                    <Form.Label>desgination</Form.Label>
+                                    <Form.Control placeholder="Add desgination" name='desgination' value={inputList.desgination} onChange={handleChange} />
+                                </Form.Group>
 
                             <Form.Group className="mb-3"  >
                                 <Form.Label>Gender</Form.Label>
