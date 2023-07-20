@@ -50,7 +50,9 @@ function Employee() {
 
         let gdata = getData();
 
-        let uid = gdata.length + 101;
+        let uid = gdata.length > 0 ?  
+                gdata[gdata.length - 1].id + 1
+            : 101;
 
         let ndata = ({ ...inputList, id: uid });
 
